@@ -1,0 +1,35 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 0.5rem;
+  margin: 2rem 0.5rem;
+  cursor: pointer;
+}
+
+.radio-buttons{
+  text-align: left;
+}
+
+.radio-buttons li {
+  padding: 0.5rem;
+  list-style: none;
+}
+
+li input[type="radio"] {
+  margin: 0 0.5rem;
+}
+
+.answer-space{
+  border: 1px solid orange;
+  border-radius: 20px;
+  background-color: orange;
+  padding: 0.5rem;
+  margin: 1rem;
+}
